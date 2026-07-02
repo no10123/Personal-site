@@ -1,0 +1,33 @@
+body {
+    background-color: var(--base);
+}
+
+h1 {
+    color: var(--text);
+}
+
+.nav-btn {
+    background: transparent;
+    border: none;
+    color: var(--subtext1, #a6adc8);
+    font-size: 24px;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+}
+
+.nav-btn:hover {
+    color: var(--text, #cdd6f4);
+    background: rgba(8, 7, 8, 0.696);
+}
+
+.nav-btn.active {
+    color: #ffffff;
+}
+
+nav {
+    background-color: var(--mantle);
+    padding: 12px;
+    border-radius: 12px;
+}
