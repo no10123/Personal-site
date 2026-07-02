@@ -34,6 +34,9 @@ nav {
     background-color: var(--mantle);
     padding: 12px;
     border-radius: 12px;
+    position: sticky;
+    top: 10px;
+    z-index: 100;
 }
 
 ul {
@@ -84,4 +87,5 @@ a:visited {
 
 canvas {
     position: absolute;
+    pointer-events: none;
 }
