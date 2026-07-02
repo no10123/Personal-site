@@ -7,6 +7,8 @@ I do have better version, so check out https://no10123.github.io/website/
 
 has 4 sections, about me, socials, projects, and my tec stack + stats.
 
+site-url: https://no10123.github.io/Personal-site/
+
 credits:
 
 by: me
